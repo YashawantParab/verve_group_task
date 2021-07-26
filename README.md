@@ -33,8 +33,8 @@ We can perform feature selection using mutual information on the given dataset a
 ### Question 3: Identify which model you would try first, and at least one advantage and disadvantage of this choice.
 ##### Answer: Modeling with selected features
 After removing the unwanted and independent variables we can design a model to foresee the gender classification. There are different approaches where we can predict gender based on the selected features. 
-<button name="button">Naïve bias approach</button>
-
+	
+	Naïve bias approach
 	K-NN
 	Support vector machine
 	Random forest 
@@ -42,6 +42,14 @@ After removing the unwanted and independent variables we can design a model to f
 ### Naïve Bayes Classifier theorem: 
 Naïve Bayes algorithm is a supervised machine learning algorithm used for solving a classification problem. This classification algorithm uses a probabilistic approach and helps to build fast machine learning models that can make a quick prediction. 
 The Naïve Bayes approach is the probabilistic method based on the Bayes’ theorem where c = (c1, c2) be the gender class, and F = (f1, f2, f3… fn) are features selected from feature engineering.  According to the Bayes’ theorem: 
+
+
+\begin{equation}
+X_{k} = A X_{k - 1} + B {u_k} + w_k
+\label{eq: xk}
+\end{equation}
+
+
 P(c┤|F)=(P(c)P(F|c))/(P(F))
 The naïve Bayes hypothesis is that:  
 P͞͞(F│c)= ∏_(i=1)^n▒〖P͞͞(fi│c) 〗   
@@ -81,7 +89,8 @@ There are various kernel tricks SVM uses to convert a nonseparable problem to a 
 	Handle multiple continuous and categorical variables. 
 	Use less memory as they use a subset of training points in a decision phase.
 ##### Disadvantages:
-	Difficult to when the data is too large because of training time. Also, it works inadequately with overlapping classes.
+	Difficult to when the data is too large because of training time. 
+	Also, it works inadequately with overlapping classes.
 
 
 Above-stated all the machine learning algorithms have their characteristics and they perform well in their playground. 
@@ -90,13 +99,13 @@ Issues with the Naïve Bayes classifier model is that it assumes all predictors 
 We can perform a Deep interest neural network (DIN). To build a neural network we need more data as well as the data which are more likely close to the predictor (Gender). DIN adaptively calculates the representation vectors of user interests considering the relevance of historical behaviors concerning company ads.
 
 ### References:
-https://medium.com/@MohammedS/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b
-https://machinelearningmastery.com/feature-selection-with-categorical-data/ 
-https://www.researchgate.net/publication/3845468_Gender_classification_with_support_vector_machines 
-https://www.programmersought.com/article/89554712508/ 
-https://www.cis.uni-muenchen.de/~hs/teach/18w/pdf/13bayesflat.pdf 
-https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python 
-https://arxiv.org/pdf/1706.06978.pdf
+	https://medium.com/@MohammedS/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b
+	https://machinelearningmastery.com/feature-selection-with-categorical-data/ 
+	https://www.researchgate.net/publication/3845468_Gender_classification_with_support_vector_machines 
+	https://www.programmersought.com/article/89554712508/ 
+	https://www.cis.uni-muenchen.de/~hs/teach/18w/pdf/13bayesflat.pdf 
+	https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python 
+	https://arxiv.org/pdf/1706.06978.pdf
 
 
 
