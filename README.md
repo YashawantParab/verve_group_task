@@ -43,6 +43,7 @@ After removing the unwanted and independent variables we can design a model to f
 Naïve Bayes algorithm is a supervised machine learning algorithm used for solving a classification problem. This classification algorithm uses a probabilistic approach and helps to build fast machine learning models that can make a quick prediction. 
 The Naïve Bayes approach is the probabilistic method based on the Bayes’ theorem where c = (c1, c2) be the gender class, and F = (f1, f2, f3… fn) are features selected from feature engineering.  According to the Bayes’ theorem: 
 
+$\prod_{x = a}^{b} f(x)$
 
 \begin{equation}
 X_{k} = A X_{k - 1} + B {u_k} + w_k
