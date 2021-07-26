@@ -46,12 +46,17 @@ The Naïve Bayes approach is the probabilistic method based on the Bayes’ theo
 <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{equation}&space;P(c|F)&space;=&space;\frac{P(c)P(F|c)}{P(F)}&space;\label{eq:&space;BayesTheory_conditionalProb}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{equation}&space;P(c|F)&space;=&space;\frac{P(c)P(F|c)}{P(F)}&space;\label{eq:&space;BayesTheory_conditionalProb}&space;\end{equation}" title="\begin{equation} P(c|F) = \frac{P(c)P(F|c)}{P(F)} \label{eq: BayesTheory_conditionalProb} \end{equation}" /></a>
 
 
-P(c┤|F)=(P(c)P(F|c))/(P(F))
 The naïve Bayes hypothesis is that:  
-P͞͞(F│c)= ∏_(i=1)^n▒〖P͞͞(fi│c) 〗   
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{100}&space;\begin{equation}&space;\hat&space;P(F|c)&space;=&space;\prod_{i=1}^{n}&space;\hat&space;P(f_{i}|&space;c)&space;\label{eq:&space;Naive&space;Bayes&space;Hypothesis}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\begin{equation}&space;\hat&space;P(F|c)&space;=&space;\prod_{i=1}^{n}&space;\hat&space;P(f_{i}|&space;c)&space;\label{eq:&space;Naive&space;Bayes&space;Hypothesis}&space;\end{equation}" title="\begin{equation} \hat P(F|c) = \prod_{i=1}^{n} \hat P(f_{i}| c) \label{eq: Naive Bayes Hypothesis} \end{equation}" /></a>
+
+
 According to the naïve Bayes hypothesis, the probability is belonging to each class is like: 
-P͞͞(F│c)=argmaxP(C=c│F)=argmaxP(C|c) ∏_(i=1)^n▒〖P͞͞(f〖=f〗_i│C=c) 〗   
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{100}&space;\begin{equation}&space;\hat&space;P(F|c)&space;=&space;argmaxP(C&space;=&space;c|F)&space;=&space;argmaxP(C|c)&space;\prod_{i=1}^{n}&space;\hat&space;P(f=&space;f_{i}|&space;C&space;=c)&space;\label{eq:&space;Naive&space;Bayes&space;Hypothesis}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\begin{equation}&space;\hat&space;P(F|c)&space;=&space;argmaxP(C&space;=&space;c|F)&space;=&space;argmaxP(C|c)&space;\prod_{i=1}^{n}&space;\hat&space;P(f=&space;f_{i}|&space;C&space;=c)&space;\label{eq:&space;Naive&space;Bayes&space;Hypothesis}&space;\end{equation}" title="\begin{equation} \hat P(F|c) = argmaxP(C = c|F) = argmaxP(C|c) \prod_{i=1}^{n} \hat P(f= f_{i}| C =c) \label{eq: Naive Bayes Hypothesis} \end{equation}" /></a>
+
 Its basic assumption is that all features are independent of each other. In our binary classification problem, each viewer sample has only two predictions (Male, Female). 
+
 ##### Advantages
 	It can be used for multiclass and binary classification.
 	Perform well on the categorical input variable
