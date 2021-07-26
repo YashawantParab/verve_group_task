@@ -43,16 +43,7 @@ After removing the unwanted and independent variables we can design a model to f
 Naïve Bayes algorithm is a supervised machine learning algorithm used for solving a classification problem. This classification algorithm uses a probabilistic approach and helps to build fast machine learning models that can make a quick prediction. 
 The Naïve Bayes approach is the probabilistic method based on the Bayes’ theorem where c = (c1, c2) be the gender class, and F = (f1, f2, f3… fn) are features selected from feature engineering.  According to the Bayes’ theorem: 
 
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
-
-
-$\prod_{x = a}^{b} f(x)$
-
-\begin{equation}
-X_{k} = A X_{k - 1} + B {u_k} + w_k
-\label{eq: xk}
-\end{equation}
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{equation}&space;P(c|F)&space;=&space;\frac{P(c)P(F|c)}{P(F)}&space;\label{eq:&space;BayesTheory_conditionalProb}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{equation}&space;P(c|F)&space;=&space;\frac{P(c)P(F|c)}{P(F)}&space;\label{eq:&space;BayesTheory_conditionalProb}&space;\end{equation}" title="\begin{equation} P(c|F) = \frac{P(c)P(F|c)}{P(F)} \label{eq: BayesTheory_conditionalProb} \end{equation}" /></a>
 
 
 P(c┤|F)=(P(c)P(F|c))/(P(F))
